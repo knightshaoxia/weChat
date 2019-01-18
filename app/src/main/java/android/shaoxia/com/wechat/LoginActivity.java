@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
 
+
         ImageButton back = (ImageButton) findViewById(R.id.back);
 
         Log.i(TAG, "ON onCreate");
